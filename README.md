@@ -64,6 +64,7 @@ To use this implementation, you can clone the repository and explore the provide
 Here's an example of how you can create instances and interact with the Yelp-style domain:
 
 ```python
+
 # Create customers and restaurants
 alice = Customer("Alice", "Johnson")
 bob = Customer("Bob", "Smith")
@@ -79,7 +80,6 @@ alice.add_review(restaurant2, 3)
 print(restaurant1.average_star_rating())  # Output: 4.5
 print(alice.restaurants())                # Output: [Restaurant("Delicious Eats"), Restaurant("Tasty Bites")]
 print(bob.num_reviews())                  # Output: 1
-
 
 ## Contribution
 Feel free to contribute to this repository by suggesting improvements, reporting issues, or submitting pull requests.

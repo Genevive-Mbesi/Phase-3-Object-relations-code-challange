@@ -27,3 +27,4 @@ class Restaurant:
             return 0
         total_rating = sum([review.rating() for review in restaurant_reviews])
         return total_rating / len(restaurant_reviews)
+    
